@@ -27,4 +27,5 @@ class Route {
    }
   }
   include web.php
+  include route.php
 ?>
