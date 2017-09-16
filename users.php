@@ -12,7 +12,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 
 $usr = "SELECT * FROM accs WHERE username=$username";
-$result = $conn->query($sql);
+$result = $conn->query($usr);
   
 if (!$result->num_rows = 0) {
   echo "This account was not found."
