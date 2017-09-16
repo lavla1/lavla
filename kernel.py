@@ -2,4 +2,4 @@
 import subprocess
 print("Good")
 
-subprocess.call("php /path/to/your/script.php")
+subprocess.call("php /routing/service.php")
