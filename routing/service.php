@@ -24,6 +24,7 @@ class Route {
     if ($routes == $rout) {
       call_user_func_array(data,[])
     }
+    return $routes
    }
   }
   include web.php
