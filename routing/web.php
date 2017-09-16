@@ -5,4 +5,8 @@
 Route::get("/",function() {
 include $_SERVER["DOCUMENT_ROOT"]."index.php"
 })
+  
+Route::get("/lavla",function() {
+  include $_SERVER["DOCUMENT_ROOT"]."editor.php"
+})
 ?>
