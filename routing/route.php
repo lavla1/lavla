@@ -3,7 +3,7 @@
 # harder to use then the web.php file.  Use that for web pages.  Don't get
 # fooled by the file name!
 
-Route::get("/users",function() {
+users = Route::get("/users",function() {
 include $_SERVER["DOCUMENT_ROOT"]."users.php"
 })
 ?>
